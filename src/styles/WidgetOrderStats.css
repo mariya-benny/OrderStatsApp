@@ -1,0 +1,56 @@
+.widget-order-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  @media (min-width: 768px) {
+    .widget-order-stats {
+      max-width: 768px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .widget-order-stats {
+      max-width: 992px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .widget-order-stats {
+      max-width: 1200px;
+    }
+  }
+  
+  .order-stat {
+    width: calc(50% - 10px);
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .order-stat-icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .order-stat-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .order-stat-amount {
+    font-size: 24px;
+    font-weight: 700;
+    color: #21bf73;
+  }
+  
